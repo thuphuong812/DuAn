@@ -34,7 +34,7 @@
         						<form class="forms-sample" action="<?php echo BASE_URL ?>post/insert_category_post" method="POST">
         							<div class="form-group">
         								<label for="exampleInputName1">Tên danh mục</label>
-        								<input type="text" class="form-control" id="exampleInputName1" placeholder="Tên danh mục" name="title_category_post" required>
+        								<input type="text" class="form-control" id="exampleInputName1" placeholder="Tên danh mục" name="title_category_post" required minlength = 3 maxlength="255">
         							</div>
 
 

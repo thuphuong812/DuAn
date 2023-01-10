@@ -47,8 +47,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="<?php echo BASE_URL ?>post/add_category_post"> Thêm </a></li>
-                <li class="nav-item"> <a class="nav-link" href="<?php echo BASE_URL ?>post/list_category_post"> Liệt kê </a></li>
+                <li class="nav-item"> <a class="nav-link" id="themdmbv" href="<?php echo BASE_URL ?>post/add_category_post"> Thêm </a></li>
+                <li class="nav-item"> <a class="nav-link" id="lietkedmbv" href="<?php echo BASE_URL ?>post/list_category_post"> Liệt kê </a></li>
               </ul>
             </div>
           </li>
@@ -61,8 +61,8 @@
             </a>
             <div class="collapse" id="post">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="<?php echo BASE_URL ?>post/add_post"> Thêm </a></li>
-                <li class="nav-item"> <a class="nav-link" href="<?php echo BASE_URL ?>post/list_post"> Liệt kê </a></li>
+                <li class="nav-item"> <a class="nav-link" id="thembv" href="<?php echo BASE_URL ?>post/add_post"> Thêm </a></li>
+                <li class="nav-item"> <a class="nav-link" id="lietkebv" href="<?php echo BASE_URL ?>post/list_post"> Liệt kê </a></li>
               </ul>
             </div>
           </li>
