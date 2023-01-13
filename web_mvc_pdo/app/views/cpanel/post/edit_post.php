@@ -37,7 +37,7 @@
                      <form class="forms-sample" action="<?php echo BASE_URL ?>post/update_post/<?php echo $pro['id_post'] ?>" method="POST" enctype="multipart/form-data">
                       <div class="form-group">
                         <label for="exampleInputName1">Tiêu đề bài viết</label>
-                        <input type="text" class="form-control" id="exampleInputName1" value="<?php echo $pro['title_post'] ?>" name="title_post" required>
+                        <input type="text" class="form-control" id="exampleInputName1" value="<?php echo $pro['title_post'] ?>" name="title_post" required minlength = 3 maxlength="255">
                       </div>
                       <div class="form-group">
                         <label for="exampleTextarea1">Mô tả bài viết</label>
@@ -53,7 +53,7 @@
                         <label>Hình ảnh</label>
                         <input type="file" name="img[]" class="file-upload-default">
                         <div class="input-group col-xs-12">
-                          <input type="file" class="form-control file-upload-info"  name="image_post">
+                          <input type="file" class="form-control file-upload-info"  name="image_post" id="img">
 
                         </div>
                         <br>
