@@ -144,9 +144,10 @@
                          </div>
 <?php
                     }}
-
-                    
+                    if(empty($search_product)){
                     ?>
+                    <p style=" text-align: center" >no data</p> 
+                    <?php }?>
 
                      </div>
                      <br>
@@ -186,7 +187,14 @@
                 </div>
             <?php
                             }}
+                            //if(empty($search_post)){
+   
             ?>
+            <!-- <p style=" text-align: center" >no data</p>  -->
+            <!-- <?php //}?> -->
+
+
+            
         </div>
 
                  

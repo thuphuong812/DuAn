@@ -34,6 +34,7 @@
              <form class="forms-sample" action="<?php echo BASE_URL ?>post/insert_post" method="POST" enctype="multipart/form-data">
                <div class="form-group">
                 <label for="exampleInputName1">Tiêu đề bài viết</label>
+                <label style="color: red">*</label>
                 <input type="text" class="form-control" id="exampleInputName1" placeholder="Tiêu đề bài viết" name="title_post" required minlength = 3 maxlength="255">
               </div>
               <div class="form-group">
@@ -42,6 +43,7 @@
               </div>
               <div class="form-group">
                 <label for="exampleTextarea1">Chi tiết bài viết</label>
+                <label style="color: red">*</label>
                 <textarea class="form-control" id="content_post_textarea" rows="10" name="content_post" required></textarea>
               </div>
 
